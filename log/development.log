@@ -530,3 +530,37 @@ NoMethodError (undefined method `user_url' for #<UsersController:0x0000556f01122
 Did you mean?  users_url):
   
 app/controllers/users_controller.rb:15:in `create'
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/eric/.rbenv/versions/2.7.0/bin/rake:23)
+Started GET "/users/new" for ::1 at 2020-11-25 09:43:30 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 18.6ms | Allocations: 4507)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 64ms (Views: 38.9ms | ActiveRecord: 1.1ms | Allocations: 15896)
+
+
+Started POST "/users" for ::1 at 2020-11-25 09:43:58 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"I+1BQkhkX2g32usXAfU7QFGdTsaiCoE+kPe/4M/KRZPi50M3iGbt9IXMMs8/XDYFPBc6TqhYEE9IiXiTMNQUmw==", "user"=>{"username"=>"Stanley", "email"=>"stan@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Stanley"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "stan@gmail.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "Stanley"], ["email", "stan@gmail.com"], ["password", "Stan1234"], ["created_at", "2020-11-25 08:43:59.026890"], ["updated_at", "2020-11-25 08:43:59.026890"]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[35m (12.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Redirected to 
+Completed 500 Internal Server Error in 387ms (ActiveRecord: 13.8ms | Allocations: 90741)
+
+
+  
+NoMethodError (undefined method `user_url' for #<UsersController:0x000055edd955b500>
+Did you mean?  users_url):
+  
+app/controllers/users_controller.rb:15:in `create'
