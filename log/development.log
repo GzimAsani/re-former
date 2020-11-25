@@ -132,3 +132,401 @@ Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9
 Completed 200 OK in 4835ms (Views: 4825.8ms | ActiveRecord: 0.0ms | Allocations: 8720)
 
 
+Started GET "/users/new" for ::1 at 2020-11-25 09:13:03 +0100
+  [1m[35m (9.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 300)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 122ms (Views: 85.4ms | ActiveRecord: 3.5ms | Allocations: 21266)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:15:38 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 21.1ms | Allocations: 4494)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 58ms (Views: 37.7ms | ActiveRecord: 4.6ms | Allocations: 13428)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:15:50 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 9.9ms | Allocations: 914)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.0ms | Allocations: 5591)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:16:15 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 881)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 5561)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:16:29 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 884)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 5578)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:16:42 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 884)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms | Allocations: 5561)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:16:43 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 690)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 4458)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:17:18 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 917)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 5596)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:17:35 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 5817)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:17:49 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 239.8ms | Allocations: 65099)
+Completed 500 Internal Server Error in 244ms (ActiveRecord: 0.0ms | Allocations: 66256)
+
+
+  
+ActionView::Template::Error (undefined method `password' for #<ActionView::Helpers::FormBuilder:0x00007ff7541cc200>
+Did you mean?  password_field):
+    13: 
+    14: <p>
+    15:   <%= f.label :password %>
+    16:   <%= f.password :password %>
+    17: </p>
+    18: 
+    19: <p>
+  
+app/views/users/new.html.erb:16
+app/views/users/new.html.erb:3
+Started GET "/users/new" for ::1 at 2020-11-25 09:18:31 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 12.2ms | Allocations: 3037)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 7693)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:19:06 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1090)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 5758)
+
+
+Started POST "/users" for ::1 at 2020-11-25 09:20:04 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"q9ejYeIBJA5P9a/09142n90kIA/bnGx2DK9BxiNGdceVo+Aznbp03p+6Ln7aQJY60sD5tjEG4G/BD0fcYPbh3g==", "user"=>{"username"=>"Gzim", "email"=>"gzim@gm", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+No template found for UsersController#create, rendering head :no_content
+Completed 204 No Content in 9ms (ActiveRecord: 0.0ms | Allocations: 1627)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:24:37 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 7.2ms | Allocations: 932)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 53ms (Views: 28.7ms | ActiveRecord: 1.1ms | Allocations: 9194)
+
+
+Started POST "/users" for ::1 at 2020-11-25 09:24:45 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"uPPCr4pmFwoJ8xg33FYNn8tvP6z9HD6ASc5gtCUG43aGh4H99d1H2tm8mb3xSK06xIvmFReGspmEbmauZrZ3bw==", "user"=>{"username"=>"Eric", "email"=>"Eric@mdaf", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Eric@mdaf"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 877)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 12.2ms | ActiveRecord: 0.9ms | Allocations: 10170)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:25:13 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 928)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 15.2ms | ActiveRecord: 0.7ms | Allocations: 8928)
+
+
+Started POST "/users" for ::1 at 2020-11-25 09:25:26 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"EhLh+m6bHZ7S/T8NfeRWPaVAF8xzy4joddo2v7wRYt0sZqKoESBNTgKyvodQ+vaYqqTOdZlRBPG4ejCl/6H2xA==", "user"=>{"username"=>"makook", "email"=>"mga@migao", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "mga@migao"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 871)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 15.3ms | ActiveRecord: 0.6ms | Allocations: 9341)
+
+
+Started POST "/users" for ::1 at 2020-11-25 09:25:46 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"JYtGTC0R734k9XnCXrdwW9/gvc5zq7vxmXsgwoq+o8Mb/wUeUqq/rvS6+EhzqdD+0ARkd5kxN+hU2ybYyQ432g==", "user"=>{"username"=>"Gzim", "email"=>"mga@migao", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :username[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "mga@migao"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 870)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 17.8ms | ActiveRecord: 0.7ms | Allocations: 9173)
+
+
+Started POST "/users" for ::1 at 2020-11-25 09:26:05 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"KX/MQFQdU0K4YEo/C9zkd04odDxUyXHXVAFE4PZbTVoXC48SK6YDkmgvy7UmwkTSQcythb5T/c6ZoUL6tevZQw==", "user"=>{"username"=>"Gzim", "email"=>"mga@migao", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Gzim"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "mga@migao"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "Gzim"], ["email", "mga@migao"], ["password", "zhuNicali1251"], ["created_at", "2020-11-25 08:26:05.847779"], ["updated_at", "2020-11-25 08:26:05.847779"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (8.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+Redirected to 
+Completed 500 Internal Server Error in 283ms (ActiveRecord: 10.5ms | Allocations: 94481)
+
+
+  
+NoMethodError (undefined method `user_url' for #<UsersController:0x00007ff75457c580>
+Did you mean?  users_url):
+  
+app/controllers/users_controller.rb:10:in `create'
+Started GET "/users/new" for ::1 at 2020-11-25 09:26:51 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 928)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 37ms (Views: 18.6ms | ActiveRecord: 1.2ms | Allocations: 9143)
+
+
+Started POST "/users" for ::1 at 2020-11-25 09:26:58 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"HCgiA2084oyMVV6FX/XkUrpgKWeC80MUy9mZKX5AMCoiXGFREoeyXFwa3w9y60T3tYTw3mhpzw0GeZ8zPfCkMw==", "user"=>{"username"=>"Gzim", "email"=>"gzi@gima", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Gzim"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "gzi@gima"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 880)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 12.7ms | ActiveRecord: 1.0ms | Allocations: 9114)
+
+
+Started POST "/users" for ::1 at 2020-11-25 09:27:40 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"anMbebjxw0Lnx4onnTDsJaQY0xsJUQF6YGpKP83JQwpUB1grx0qTkjeIC62wLkyAq/wKouPLjWOtykwljnnXEw==", "user"=>{"username"=>"Gzim", "email"=>"gzim@gmmag", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Gzim"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "gzim@gmmag"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 878)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 14.4ms | ActiveRecord: 1.0ms | Allocations: 8897)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started POST "/users" for ::1 at 2020-11-25 09:28:35 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"tMSjDEPT77kuupAQkyL5GCvIx0Tmia9e27wJjITX71+KsOBePGi/af71EZq+PFm9JCwe/QwTI0cWHA+Wx2d7Rg==", "user"=>{"username"=>"Eric", "email"=>"gzim@gmmag", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Eric"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "gzim@gmmag"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 880)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 13.1ms | ActiveRecord: 0.8ms | Allocations: 9562)
+
+
+Started GET "/users/new" for ::1 at 2020-11-25 09:28:39 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 865)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 4631)
+
+
+Started POST "/users" for ::1 at 2020-11-25 09:28:50 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"E0N/u7xdJFUwUMz9MZG663InIALWgJnVfQfQOdgrGN8tNzzpw+Z0heAfTXccjxpOfcP5uzwaFcywp9Yjm5uMxg==", "user"=>{"username"=>"Ericc", "email"=>"eric@gmoa", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Ericc"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "eric@gmoa"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "Ericc"], ["email", "eric@gmoa"], ["password", "zhuNIcali1251"], ["created_at", "2020-11-25 08:28:50.714890"], ["updated_at", "2020-11-25 08:28:50.714890"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+Redirected to 
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 8.1ms | Allocations: 6962)
+
+
+  
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  
+app/controllers/users_controller.rb:10:in `create'
+Started GET "/users/new" for ::1 at 2020-11-25 09:32:26 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1147)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 14.4ms | ActiveRecord: 1.4ms | Allocations: 9923)
+
+
+Started POST "/users" for ::1 at 2020-11-25 09:32:38 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"msJTgoyVe9hFjJyR/Rl65xjgQtpG20yLQqYKm+WYbI2kthDQ8y4rCJXDHRvQB9pCFwSbY6xBwJKPBgyBpij4lA==", "user"=>{"username"=>"Meron", "email"=>"meron@ingam", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "Meron"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "meron@ingam"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Create (3.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "Meron"], ["email", "meron@ingam"], ["password", "gigAsai123"], ["created_at", "2020-11-25 08:32:38.492428"], ["updated_at", "2020-11-25 08:32:38.492428"]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Redirected to 
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 9.5ms | Allocations: 7516)
+
+
+  
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  
+app/controllers/users_controller.rb:15:in `create'
+Started GET "/users/new" for ::1 at 2020-11-25 09:32:58 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 928)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 12.1ms | ActiveRecord: 2.6ms | Allocations: 9117)
+
+
+Started POST "/users" for ::1 at 2020-11-25 09:33:05 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"5XFBpqsQOVI3Bt+COCYVb/jdryMuMCuHFUR8nrneofjbBQL01KtpgudJXggVOLXK9zl2msSqp57Y5HqE+m414Q==", "user"=>{"username"=>"pokopa", "email"=>"pamf@okga", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "pokopa"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "pamf@okga"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "pokopa"], ["email", "pamf@okga"], ["password", "okoakfK12"], ["created_at", "2020-11-25 08:33:05.580983"], ["updated_at", "2020-11-25 08:33:05.580983"]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[35m (10.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Redirected to 
+Completed 500 Internal Server Error in 251ms (ActiveRecord: 12.6ms | Allocations: 90070)
+
+
+  
+NoMethodError (undefined method `user_url' for #<UsersController:0x00007ff7544ec908>
+Did you mean?  users_url):
+  
+app/controllers/users_controller.rb:15:in `create'
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/dell/.rbenv/versions/2.7.0/bin/rake:23)
+Started GET "/users/new" for ::1 at 2020-11-25 09:35:17 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1145)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 18.5ms | ActiveRecord: 1.7ms | Allocations: 9922)
+
+
+Started POST "/users" for ::1 at 2020-11-25 09:35:25 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"WftNnaTaZ0vsXfZcGu90g+XKExSoewn2NG68gIh1snZnjw7P22E3mzwSd9Y38dQm6i7KrULhhe/5zrqay8Umbw==", "user"=>{"username"=>"popop", "email"=>"popo@gmao", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "popop"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "popo@gmao"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "popop"], ["email", "popo@gmao"], ["password", "oakgkoaK1"], ["created_at", "2020-11-25 08:35:25.643663"], ["updated_at", "2020-11-25 08:35:25.643663"]]
+  ↳ app/controllers/users_controller.rb:13:in `create'
+  [1m[35m (9.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:13:in `create'
+Redirected to 
+Completed 500 Internal Server Error in 274ms (ActiveRecord: 10.8ms | Allocations: 89868)
+
+
+  
+NoMethodError (undefined method `user_url' for #<UsersController:0x0000556f01122eb8>
+Did you mean?  users_url):
+  
+app/controllers/users_controller.rb:15:in `create'
